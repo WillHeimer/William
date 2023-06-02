@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.form-container {
+  max-width: 600px; /* Adjust this value to your liking */
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  animation: fade-in 2s;
+}
+
+  
+.Footer{
+  color: gray;
+}
+
+.min-h-full{
+  padding-bottom: 20px;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.flex.flex-wrap{
+  animation: fade-in 2s;
+}
+
+.max-w-xl{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.mt-1{
+  text-align: right;
+}
+

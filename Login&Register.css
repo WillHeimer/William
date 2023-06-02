@@ -1,0 +1,79 @@
+.login-register-container {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 33%,
+      rgba(179, 179, 179, 1) 90%
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 2s;
+  }
+  
+  .login-register h1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  .login-register {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 50vh;
+  }
+  
+  .login-register-form {
+    display: flex;
+    flex-direction: column;
+    animation: fade-in 2s;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .login-register h5 {
+    margin-top: 0px;
+  }
+  
+  .login-register input {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .login-register-button {
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .login-register-button:hover {
+    background-color: transparent;
+    color: gray;
+    transition: background .5s ease, transform 1s ease;
+  }
+  
+  .login-register-link {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 14px;
+    margin-top: 10px;
+    color: gray;
+    text-decoration: underline;
+    transition: color 1s ease;
+  }
+  
